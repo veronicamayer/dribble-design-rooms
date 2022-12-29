@@ -1,0 +1,156 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url("../fonts/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+    font-family: Monoton;
+    src: url("../fonts/Monoton-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #6b6f73;
+    font-family: Ubuntu;
+}
+
+body {
+    background-color: #1f2125;
+}
+
+header {
+    border-bottom: 1px solid #6b6f73;
+    padding: 2vh 5vw;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.logo {
+    font-family: Monoton;
+    font-size: 30px;
+    margin-right: 2vw;
+}
+
+header article {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 20px;
+    object-fit: contain;
+    margin: 0 1vw;
+}
+
+nav a {
+    margin: 0 1vw;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    border-bottom: 1px solid #d9a073;
+    padding-bottom: 4.3vh;
+}
+
+/* main */
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+.sectionTitle {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin: 0 10vw;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    margin: 10vh 0;
+}
+
+.sectionTitle p {
+    display: flex;
+    align-items: center;
+}
+
+.sectionTitle p span {
+    background-color: #d9a073;
+    height: 2px;
+    width: 100px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+.sectionTitle p {
+    color: #d9a073;
+    text-transform: uppercase;
+}
+
+
+.sectionImg {
+    position: relative;
+    height: 70vh;
+}
+
+.sectionImg img {
+    height: 70vh;
+    width: 20vw;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.sectionImg img:nth-of-type(1) {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.sectionImg img:nth-of-type(2) {
+    position: absolute;
+    top: 0;
+    right: 22vw;
+}
+
+.sectionImg img:nth-of-type(3) {
+    position: absolute;
+    top: 0;
+    right: 44vw;
+}
+
+.sectionImg p {
+    color: rgb(209, 209, 209);
+}
+
+.sectionImg p:nth-of-type(1) {
+    position: absolute;
+    top: 2vh;
+    right: 15vw;
+    z-index: 1;
+}
+
+.sectionImg p:nth-of-type(2) {
+    position: absolute;
+    top: 2vh;
+    right: 35vw;
+    z-index: 1;
+}
+
+.sectionImg p:nth-of-type(3) {
+    position: absolute;
+    top: 2vh;
+    right: 58vw;
+    z-index: 1;
+}
+
+
+
+
